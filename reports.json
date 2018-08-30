@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7053513886,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch \"ff\" browser and enter \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ff",
+                  "offset": 8
+                },
+                {
+                  "val": "url",
+                  "offset": 31
+                }
+              ],
+              "location": "TC_01_Login.launchBrowser(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firefox",
+                  "http://server/bank/"
+                ],
+                "line": 6
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "This scenario is designed to validate the valid credentials of Admin User",
+        "description": "",
+        "id": "validate-the-following-functionalities-on-the-home-page-module;this-scenario-is-designed-to-validate-the-valid-credentials-of-admin-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 265855063,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check for  features",
+            "match": {
+              "location": "Tc_O1_verify_features_loginPage.check_for_features()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49547917,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify Tab Order",
+            "match": {
+              "location": "Tc_O1_verify_features_loginPage.verifyHomeTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1219632537,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validateTabs",
+            "match": {
+              "location": "Tc_O1_verify_features_loginPage.validatetabs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5510609,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close browser",
+            "match": {
+              "location": "Tc_O1_verify_features_loginPage.closebrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@tab"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the following functionalities on the Home Page Module",
+    "description": "As an User Application should be launched properly",
+    "id": "validate-the-following-functionalities-on-the-home-page-module",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
